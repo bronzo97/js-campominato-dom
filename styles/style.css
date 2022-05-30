@@ -1,0 +1,24 @@
+.container {
+    background-color: #79F8D2;
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cell {
+    border: 1px solid black;
+    height: 50px;
+    width: calc((100% / 8) - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorato {
+    background-color: #2772A6;
+    color: #fff;
+}
