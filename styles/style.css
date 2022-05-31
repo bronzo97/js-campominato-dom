@@ -6,13 +6,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: calc((50px * 8) + (2px * 8));
+    margin: 0 auto;
 
 }
 
 .cell {
     border: 1px solid black;
     height: 50px;
-    width: calc((100% / 8) - 10px);
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,4 +23,12 @@
 .colorato {
     background-color: #2772A6;
     color: #fff;
+}
+
+.cell.bomb {
+    background-color: #ff0000;
+}
+
+.cell.save {
+    background-color: #008000;
 }
